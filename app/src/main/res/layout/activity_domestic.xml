@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C0C3F"
+    tools:context=".DomesticActivity">
+
+
+    <ImageView
+        android:layout_width="158dp"
+        android:layout_height="106dp"
+        android:background="@drawable/img_7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <Button
+        android:id="@+id/report"
+        android:layout_width="126dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="168dp"
+        android:backgroundTint="#610786"
+        android:text="Report"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="112dp"
+        android:background="@drawable/img_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.384" />
+
+    <Button
+        android:id="@+id/sos"
+        android:layout_width="126dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="344dp"
+        android:backgroundTint="#610786"
+        android:text="Press"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="112dp"
+        android:background="@drawable/img_9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <Button
+        android:id="@+id/doctor"
+        android:layout_width="126dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="544dp"
+        android:backgroundTint="#610786"
+        android:text="Doctor"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
